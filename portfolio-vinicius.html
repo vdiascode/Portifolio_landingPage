@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinicius Dias — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">
+    <svg class="logo-mark" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="14,2 26,9 26,23 14,28 2,23 2,9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <polygon points="14,7 21,11 21,21 14,25 7,21 7,11" fill="none" stroke="currentColor" stroke-width="0.75" opacity="0.5"/>
+      <text x="14" y="18" font-family="Space Mono" font-size="8" font-weight="700" fill="currentColor" text-anchor="middle">VD</text>
+    </svg>
+    vd<span>.dev</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">sobre</a></li>
+    <li><a href="#projects">projetos</a></li>
+    <li><a href="#contact">contato</a></li>
+  </ul>
+  <button class="theme-btn" onclick="toggleTheme()" id="themeBtn" aria-label="Alternar tema">
+    <svg viewBox="0 0 16 16" id="themeIcon">
+      <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 1.5v11A5.5 5.5 0 0 1 8 2.5z"/>
+    </svg>
+    <span id="themeLabel">LIGHT</span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-circle"></div>
+
+  <div class="status-badge">
+    <span class="status-dot"></span>
+    DISPONÍVEL PARA PROJETOS
+  </div>
+
+  <div class="hero-tag">Full Stack Developer</div>
+
+  <h1>
+    Vinicius<br>
+    <span class="accent">Dias</span><span class="dim">.</span>
+  </h1>
+
+  <p class="hero-desc">
+    19 anos. Itabira, MG.<br>
+    Construindo interfaces e sistemas<br>
+    que conectam pessoas e código.
+  </p>
+
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><path d="M7 1l6 6-6 6M1 7h12"/></svg>
+      Ver Projetos
+    </a>
+    <a href="#contact" class="btn-outline">Contato</a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">01 — sobre mim</div>
+  <h2 class="section-title">Quem sou eu</h2>
+  <div class="about-grid">
+    <div>
+      <p class="about-text">
+        Desenvolvedor <strong>Full Stack</strong> de 19 anos, nascido e criado em
+        <strong>Itabira, MG</strong>. Aluno do <strong>Projeto Desenvolve</strong>,
+        em parceria com a <strong>UFMG</strong> — onde aprofundo
+        fundamentos teóricos e práticos de desenvolvimento e programação.<br><br>
+        Atuo com desenvolvimento de <strong>landing pages</strong> modernas e
+        scripts de <strong>automação de redes</strong> em Python. Sigo construindo
+        soluções que unem design limpo a código robusto.<br><br>
+        Apaixonado por tecnologia e Inteligencia Artificial, sempre em busca de novos desafios no universo
+        full stack.
+      </p>
+      <br>
+      <div class="skills-grid" style="margin-top:1.5rem;">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">Automação</span>
+        <span class="skill-tag">APIs REST</span>
+        <span class="skill-tag">UI/UX</span>
+      </div>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-num">19</div>
+        <div class="stat-label">Anos de idade</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">+5</div>
+        <div class="stat-label">Projetos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">Anos dev</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num"><img class="pd" src="assets/logo.pd.png" alt=""></div>
+        <div class="stat-label">Projeto Desenvolve</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">02 — portfólio</div>
+  <h2 class="section-title">Projetos Principais</h2>
+
+  <div class="projects-grid">
+
+    <!-- Card 1 -->
+    <div class="project-card">
+      <div class="project-num">// 001</div>
+      <div class="project-title">Landing Page Corporativa</div>
+      <p class="project-desc">
+        Página institucional moderna com design responsivo, animações fluidas e
+        integração com formulário de contato. Foco em conversão e performance.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">JavaScript</span>
+      </div>
+      <a href="#" class="project-link">
+        Ver projeto
+        <svg viewBox="0 0 14 14"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="project-card">
+      <div class="project-num">// 002</div>
+      <div class="project-title">Bot de Automação de Redes</div>
+      <p class="project-desc">
+        Script Python para automação de interações em redes sociais. Gerencia
+        agendamento de posts, respostas automáticas e métricas de engajamento.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">Selenium</span>
+        <span class="project-tag">API</span>
+      </div>
+      <a href="#" class="project-link">
+        Ver projeto
+        <svg viewBox="0 0 14 14"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="project-card">
+      <div class="project-num">// 003</div>
+      <div class="project-title">Landing Page E-commerce</div>
+      <p class="project-desc">
+        Página de vendas com carrossel de produtos, depoimentos dinâmicos e
+        integração com WhatsApp para conversão direta de leads.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">HTML</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">JS</span>
+        <span class="project-tag">WhatsApp API</span>
+      </div>
+      <a href="#" class="project-link">
+        Ver projeto
+        <svg viewBox="0 0 14 14"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="project-card">
+      <div class="project-num">// 004</div>
+      <div class="project-title">Monitor de Redes Python</div>
+      <p class="project-desc">
+        Ferramenta de monitoramento de métricas em tempo real para múltiplas
+        plataformas. Gera relatórios automáticos e alertas configuráveis.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">Pandas</span>
+        <span class="project-tag">Requests</span>
+      </div>
+      <a href="#" class="project-link">
+        Ver projeto
+        <svg viewBox="0 0 14 14"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+    
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <svg style="width:20px;height:20px;vertical-align:middle;margin-right:6px;fill:none;stroke:currentColor;stroke-width:1.5" viewBox="0 0 28 28">
+          <polygon points="14,2 26,9 26,23 14,28 2,23 2,9"/>
+        </svg>
+        vd.dev
+      </div>
+      <p class="footer-bio">
+        Full Stack Developer baseado<br>
+        em Itabira, MG. Disponível para<br>
+        projetos freelance e parcerias.
+      </p>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Navegação</div>
+      <ul class="footer-links">
+        <li><a href="#hero">→ Início</a></li>
+        <li><a href="#about">→ Sobre</a></li>
+        <li><a href="#projects">→ Projetos</a></li>
+        <li><a href="#contact">→ Contato</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-col-title">Contato</div>
+
+      <div class="contact-item">
+        <div class="contact-icon">
+          <svg viewBox="0 0 16 16"><path d="M13 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM3 5.5l5 3.5 5-3.5"/></svg>
+        </div>
+        <div class="contact-info">
+          <span>Email</span>
+          <a href="mailto:viniciusdias@email.com">viniciusdias@email.com</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">
+          <svg viewBox="0 0 16 16"><path d="M11.3 10.2c-.4-.2-2.4-1.2-2.8-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.3 1.6-.3.3-.5.3-.9.1-.4-.2-1.7-.6-3.2-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.2-.4.4-.6.1-.2 0-.5-.1-.7C1 3.8.3 2.2.1 1.8-.1 1.3-.3 1.4-.5 1.4H-1c-.3 0-.7.1-1 .5C-2.3 2.3-3 3-.3 5.7c2.7 2.7 5.2 3.2 5.5 3.3.3.1 2.1.1 4-1.9.6-.6.7-1.1.5-1.5-.2-.3-.4-.3-.4-.4z" transform="translate(2 1)"/></svg>
+        </div>
+        <div class="contact-info">
+          <span>WhatsApp</span>
+          <a href="https://wa.me/5531999999999" target="_blank">+55 (31) 99999-9999</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">
+          <svg viewBox="0 0 16 16"><path d="M8 .2C3.7.2.2 3.7.2 8c0 3.4 2.2 6.3 5.3 7.3.4.1.5-.2.5-.4v-1.4c-2.2.5-2.6-1-2.6-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.8 2.3.7.1-.5.3-.8.5-1C4.5 11 2.7 10.3 2.7 7.4c0-.8.3-1.5.8-2-.1-.2-.4-1 .1-2 0 0 .6-.2 2.1.8.6-.2 1.3-.3 2-.3.7 0 1.3.1 2 .3 1.4-1 2.1-.8 2.1-.8.4 1-.1 1.8-.1 2 .5.5.8 1.2.8 2 0 2.9-1.8 3.5-3.4 3.7.3.2.5.7.5 1.4v2c0 .2.1.5.5.4C13.6 14.3 15.8 11.4 15.8 8c0-4.3-3.5-7.8-7.8-7.8z"/></svg>
+        </div>
+        <div class="contact-info">
+          <span>GitHub</span>
+          <a href="https://github.com/viniciusdias" target="_blank">github.com/viniciusdias</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">
+          <svg viewBox="0 0 16 16"><path d="M13.5 2h-11C1.7 2 1 2.7 1 3.5v9c0 .8.7 1.5 1.5 1.5h11c.8 0 1.5-.7 1.5-1.5v-9c0-.8-.7-1.5-1.5-1.5zm-9 9H3V6.5h1.5V11zm-.75-5.2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9zM13 11h-1.5V8.8c0-.6-.5-1-1-1s-1 .4-1 1V11H8V6.5h1.5v.7c.4-.5 1-.7 1.5-.7 1.1 0 2 .9 2 2V11z"/></svg>
+        </div>
+        <div class="contact-info">
+          <span>LinkedIn</span>
+          <a href="https://linkedin.com/in/viniciusdias" target="_blank">linkedin.com/in/viniciusdias</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <span>Vinicius Dias</span>. Todos os direitos reservados.</p>
+    <p>Feito com código e <span>☕</span> em Itabira, MG</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/5531999999999" target="_blank" class="whatsapp-float" aria-label="Chamar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2.1-1-.3-.1-.5-.1-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.1-.3.2-.5.1-.2 0-.4-.1-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4C7 7.2 6.3 7.9 6.3 9.5s1.1 3.2 1.3 3.4c.2.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.8.6.8.2 1.5.2 2 .1.6-.1 1.8-.7 2.1-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.5z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.4C8.5 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3 .8.8-3-.2-.3C3.7 15.1 3.2 13.6 3.2 12 3.2 7.1 7.1 3.2 12 3.2S20.8 7.1 20.8 12 16.9 20.3 12 20.3z"/></svg>
+  WHATSAPP
+</a>
+
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const current = html.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    document.getElementById('themeLabel').textContent = next === 'dark' ? 'LIGHT' : 'DARK';
+    const icon = document.getElementById('themeIcon');
+    if (next === 'light') {
+      icon.innerHTML = '<circle cx="8" cy="8" r="3.5"/><path d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3.1 3.1l1 1M11.9 11.9l1 1M3.1 12.9l1-1M11.9 4.1l1-1"/>';
+    } else {
+      icon.innerHTML = '<path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 1.5v11A5.5 5.5 0 0 1 8 2.5z"/>';
+    }
+  }
+</script>
+
+</body>
+</html>
